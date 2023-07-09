@@ -13,22 +13,49 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
             rel="stylesheet" type='text/css'>
-        
-            <!-- linking the style sheets here  -->
+
+        <!-- linking the style sheets here  -->
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/video.css">
     </head>
+    
     <body class="body">
+        
+        <!-- header starts  -->
         <div class="header">
-            <div class="left-section">left section</div>
+
+            <div class="left-section">
+                <img class="header-icons-left" src="icons/hamburger-menu.svg"
+                    alt>
+                <img class="header-icons-left" src="icons/youtube-logo.svg" alt>
+            </div>
+
             <div class="middle-section">
                 <input type="text" class="search-bar" placeholder="Search">
+                <button class="button-search"><img class="header-icons-middle"
+                        src="icons/search.svg" alt></button>
+                <button class="button-voice"><img class="header-icons-middle"
+                        src="icons/voice-search-icon.svg" alt></button>
+
             </div>
-            <div class="right-section">right section</div>
+            <div class="right-section">
+                <img class="header-icon-right" src="icons/upload.svg" alt>
+                <img class="header-icon-right" src="icons/youtube-apps.svg" alt>
+                <img class="header-icon-right" src="icons/notifications.svg" alt>
+                <img class="header-icon-right-channel-picture"
+                    src="channel-pictures/my-channel.jpeg" alt>
+            </div>
 
         </div>
 
+        <!-- sidebar   -->
+        <div class="side-bar">
+            <div class="side-bar-image"><img src="icons/hamburger-menu.svg" alt></div>
+            <div></div>
+        </div>
+
+        <!-- Main page contents  -->
         <div class="video-full-grid">
             <div class="video-preview">
                 <!-- implementing the nested layout technique here -->
@@ -397,6 +424,7 @@
 
                 </div>
             </div>
+
         </div>
     </body>
 
